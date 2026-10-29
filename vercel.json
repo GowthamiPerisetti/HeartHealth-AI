@@ -1,6 +1,5 @@
-{
+<escape>{
   "framework": "vite",
-  "rootDirectory": "frontend",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "rewrites": [
@@ -9,4 +8,4 @@
       "destination": "/index.html"
     }
   ]
-}
+}</escape>
