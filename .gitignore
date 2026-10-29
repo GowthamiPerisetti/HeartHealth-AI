@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.pytest_cache/
+
+# Raw Datasets & Image Archives (do not commit gigabytes of raw training images to Git)
+cardiomegaly_5000_manifest.csv/
+heart_disease_5000_clean.csv/
+data/tabular/
+data/xray/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+node_modules/
+dist/
+.vite/
+*.log
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db

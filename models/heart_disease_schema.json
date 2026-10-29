@@ -1,0 +1,98 @@
+{
+  "age": {
+    "type": "float",
+    "unit": "years",
+    "min": 20.0,
+    "max": 100.0,
+    "default": 50.0,
+    "description": "Patient age in years"
+  },
+  "gender": {
+    "type": "int",
+    "categories": {
+      "1": "Female",
+      "2": "Male"
+    },
+    "default": 1,
+    "description": "Biological sex"
+  },
+  "height": {
+    "type": "float",
+    "unit": "cm",
+    "min": 120.0,
+    "max": 220.0,
+    "default": 165.0,
+    "description": "Patient height in centimeters"
+  },
+  "weight": {
+    "type": "float",
+    "unit": "kg",
+    "min": 35.0,
+    "max": 200.0,
+    "default": 70.0,
+    "description": "Patient weight in kilograms"
+  },
+  "ap_hi": {
+    "type": "int",
+    "unit": "mmHg",
+    "min": 70,
+    "max": 240,
+    "default": 120,
+    "description": "Systolic blood pressure"
+  },
+  "ap_lo": {
+    "type": "int",
+    "unit": "mmHg",
+    "min": 40,
+    "max": 150,
+    "default": 80,
+    "description": "Diastolic blood pressure"
+  },
+  "cholesterol": {
+    "type": "int",
+    "categories": {
+      "1": "Normal",
+      "2": "Above Normal",
+      "3": "Well Above Normal"
+    },
+    "default": 1,
+    "description": "Serum cholesterol category"
+  },
+  "gluc": {
+    "type": "int",
+    "categories": {
+      "1": "Normal",
+      "2": "Above Normal",
+      "3": "Well Above Normal"
+    },
+    "default": 1,
+    "description": "Fasting glucose category"
+  },
+  "smoke": {
+    "type": "int",
+    "categories": {
+      "0": "Non-smoker",
+      "1": "Smoker"
+    },
+    "default": 0,
+    "description": "Tobacco smoking status"
+  },
+  "alco": {
+    "type": "int",
+    "categories": {
+      "0": "Non-drinker",
+      "1": "Alcohol Consumer"
+    },
+    "default": 0,
+    "description": "Regular alcohol consumption"
+  },
+  "active": {
+    "type": "int",
+    "categories": {
+      "0": "Inactive",
+      "1": "Physically Active"
+    },
+    "default": 1,
+    "description": "Regular physical activity"
+  }
+}

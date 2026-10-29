@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-offwhite text-navy font-sans antialiased min-h-screen;
+    color: #0B1220;
+    background-color: #F8FAFC;
+  }
+}
